@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5{
+    font-family: "Poppins", sans-serif;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+}
+
+.home_header{
+    height: 650px;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.about_header{
+    height: 650px;
+    background-image: url('../images/about\ banner.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.project_header{
+     height: 650px;
+    background-image: url('../images/project\ banner.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.gallery_header{
+     height: 650px;
+    background-image: url('../images/gallery\ banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact_header{
+     height: 650px;
+    background-image: 
+    linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0)),
+    url('../images/contact\ banner.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+header p,header h1{
+    position: relative;
+    z-index: 1;
+}
+
+
+.navbar-collapse{
+    justify-content: center;
+}
+
+footer{
+    height: auto;
+    background-color: white;
+    /* background: linear-gradient(135deg,#2C3E50,white,#4CA1AF); */
+    border-top: 1px solid #E0E0E0;
+    color: black;
+}
