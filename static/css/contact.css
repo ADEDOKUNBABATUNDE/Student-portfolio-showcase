@@ -44,8 +44,7 @@ textarea {
 }
 
 .alt-send-button {
-  width: 400px;
-  height: 34px;
+  
   transition: all .2s ease-in-out;
 }
 
@@ -54,6 +53,7 @@ textarea {
   margin-top: 10px;
   font: 700 12px 'Lato', sans-serif;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .alt-send-button:hover {
