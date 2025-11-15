@@ -18,16 +18,7 @@ p{
   letter-spacing: 6px;
 }
 
-.contact-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 20px;
-  position: relative;
-  max-width: 840px;
-  
-}
+
 
 /* Left contact page */
 .form-horizontal {
@@ -77,13 +68,13 @@ textarea {
 /* Location, Phone, Email Section */
 .contact-list {
   list-style-type: none;
-  margin-left: -30px;
-  padding-right: 20px;
+  display: block;
+  justify-content: space-between;
+ 
 }
 
 .list-item {
   line-height: 4;
-  color: #aaa;
 }
 
 .contact-text {
@@ -92,7 +83,7 @@ textarea {
   color: #bbb;
 }
 
-.place {
+/* .place {
   margin-left: 62px;
 }
 
@@ -102,17 +93,17 @@ textarea {
 
 .gmail {
   margin-left: 40px;
-}
+} */
 
-.contact-text a {
+/* .contact-text a {
   color: #bbb;
   text-decoration: none;
   transition-duration: 0.2s;
-}
+} */
 
-.contact-text a:hover {
+/* .contact-text a:hover {
   text-decoration: none;
-}
+} */
 
 
 /* Social Media Icons */
